@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript/accounts/login.js"></script>
+    <script src="javascript/constantes.js"></script>
+    <link rel="stylesheet" href="botoes.css">
+    <style>
+        body {
+            background-image: url('img/runphotos/foto1.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="cabecalho.html" frameborder="0" width="100%" height="50" id="cabecalho"></iframe>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Usuário:</td>
+                    <td><input type="text" name="username" id="username"></td>
+                </tr>
+                <tr>
+                    <td>Senha:</td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><button id="btnLogin">Login</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="passwordReset.html">Esqueceu a senha?</a>
+    </form>
+    <div id="msg"></div>
+</body>
+
+</html>

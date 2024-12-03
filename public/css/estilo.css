@@ -1,0 +1,78 @@
+.invisivel {
+    display: none;
+}
+
+.visivel {
+    display: inline;
+}
+
+.mesmaLinha {
+    display: inline;
+}
+
+
+#content{
+    background-color: white;
+}
+
+
+
+#welcome{
+    background-color: #ffcc00;
+    width: 600px;
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+#participatelink{
+    background-color: #ffcc00;
+    width: 650px;
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+
+#tabela{
+    margin: auto;
+}
+
+
+#photos{
+    background-color: #ffcc00;
+    min-height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#photos .box{
+    background-color: #ffcc00;
+    width: 300px;
+    height: 300px;
+    border: solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#footer{
+    background-color: rgb(255, 173, 67);
+    height: 50px;
+    text-align: right;
+    color: white;
+    font-size: 40px;
+}
